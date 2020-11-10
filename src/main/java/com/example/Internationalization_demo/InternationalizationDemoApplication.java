@@ -1,13 +1,13 @@
-package com.example.Intermationalization_demo;
+package com.example.Internationalization_demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IntermationalizationDemoApplication {
+public class InternationalizationDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(IntermationalizationDemoApplication.class, args);
+		SpringApplication.run(InternationalizationDemoApplication.class, args);
 	}
 
 }

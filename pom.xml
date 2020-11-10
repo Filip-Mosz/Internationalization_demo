@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Intermationalization_demo</artifactId>
+	<artifactId>Internationalization_demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Intermationalization_demo</name>
+	<name>Internationalization_demo</name>
 	<description>Demo project for Internationalization Spring Boot</description>
 
 	<properties>
@@ -22,6 +22,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<version>1.5.2.RELEASE</version>
 		</dependency>
 
 		<dependency>
