@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>InternationalPage</title>
+</head>
+<body>
+    <h1 th:text="#{greeting}">hello!</h1>
+
+<span th:text="#{lang.change}">change language</span>:
+    <select id="locales">
+        <option value=""></option>
+        <option value="en" th:text="#{lang.eng}"></option>
+        <option value="pl" th:text="#{lang.pl}"></option>
+    </select>
+</body>
+</html>
